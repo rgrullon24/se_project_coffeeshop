@@ -197,6 +197,7 @@ color:#fff ;
     gap: 12px;
     width: 20;
     height: 20px;
+    border-radius: 2px;
 }
 
 .form__input {
@@ -204,13 +205,34 @@ color:#fff ;
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    margin-top: 8px;
     height: 60px;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    margin-top: 8px;
 }
+
+.input::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #838383;
+    
+}
+
 
 .form__button {
     width: 100%;
     padding: 0;
     margin-bottom: 32px;
     height: 60px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #2f80ed;
+}
+
+.form__button:hover {
+    opacity: 70%;
 }
