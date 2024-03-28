@@ -195,9 +195,10 @@ color:#fff ;
     display: flex;
     justify-content: center;
     gap: 12px;
-    width: 20;
-    height: 20px;
+   min-width: 20px;
+    min-height: 20px;
     border-radius: 2px;
+    vertical-align: middle;
 }
 
 .form__input {
@@ -208,6 +209,7 @@ color:#fff ;
     height: 60px;
     margin: 0;
     padding: 0;
+    padding-left: 12px;
     border-radius: 4px;
     margin-top: 8px;
 }
@@ -219,6 +221,8 @@ color:#fff ;
     font-size: 16px;
     line-height: 20px;
     color: #838383;
+    
+    
     
 }
 
