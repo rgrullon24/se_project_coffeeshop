@@ -85,3 +85,44 @@
     border-bottom: 1px solid black;
     flex-grow: 1;
 }
+
+.about {
+    padding: 100px 80px;
+    display: flex;
+    background-color: #0a2850;
+    color: #fff;
+}
+
+.about__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    max-width: 251px;
+    margin: 0;
+    
+}
+
+.about__content {
+    margin-top: 119px;
+    right: 80px;
+    margin-bottom: 173px;
+    gap: 20px;
+    padding: 0;
+    max-width: 660px;
+    display: flex;
+    position: absolute;
+}
+
+.about__paragraph {
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    
+    
+
+}
