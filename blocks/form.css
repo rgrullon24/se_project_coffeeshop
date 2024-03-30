@@ -60,6 +60,7 @@
     border-radius: 4px;
     color: #fff;
     background-color: #2f80ed;
+    opacity: 70%;
 }
 
 .form__button:hover {
