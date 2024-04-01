@@ -20,16 +20,18 @@
     letter-spacing: -0.6px;
     font-style: normal;
     font-family: "Inter", Arial, sans-serif;
+    z-index: 1;
 }
 
 .header__description {
     max-width: 683px;
     font-size: 20px;
     line-height: 30px;
-    margin-top: 28px;
+    margin: 28px 0 0;
     font-style: normal;
     font-weight: normal;
     font-family: "Noto serif", 'Times New Roman', serif;
+    z-index: 2;
 }
 
 .header__span-accent {
@@ -60,6 +62,7 @@
     font-weight: 500;
     font-style: normal;
     font-family: "Inter",Arial, sans-serif;
+    z-index: 3;
 }
 
 .header__paragraph {

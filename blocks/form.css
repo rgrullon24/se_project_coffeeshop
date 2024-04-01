@@ -22,12 +22,12 @@
     min-width: 20px;
     min-height: 20px;
     border-radius: 2px;
+    margin-right: 12px;
 }
 
 .form__label_type_checkbox {
     display: flex;
     justify-content: center;
-    gap: 12px;
     vertical-align: middle;
 }
 
@@ -42,25 +42,27 @@
     padding-left: 12px;
     border-radius: 4px;
     margin-top: 8px;
-}
-
-.form__input::placeholder {
     font-family: "Inter",Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    border: solid;
+}
+
+.form__input::placeholder {
     color: #838383;
 }
 
 .form__button {
     width: 100%;
     padding: 0;
-    margin-bottom: 32px;
+    margin: 0 0 32px;
     height: 60px;
     border-radius: 4px;
     color: #fff;
     background-color: #2f80ed;
+    border: none;
 }
 
 .form__button:hover {
