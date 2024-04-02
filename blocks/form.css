@@ -48,7 +48,8 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    border: solid;
+    border-color: #838383;
+    border-width: 1px;
 }
 
 .form__input::placeholder {
