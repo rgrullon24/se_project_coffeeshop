@@ -63,9 +63,9 @@
   font-style: normal;
   font-family: "Inter", Arial, sans-serif;
   z-index: 3;
+  align-items: flex-end;
 }
 
 .header__paragraph {
   margin: 0;
-  display: flex;
 }
