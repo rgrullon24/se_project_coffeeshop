@@ -22,7 +22,8 @@
   line-height: 20px;
   font-family: "Inter", Arial, sans-serif;
   color: #2f80ed;
-  transition: ease-in-out;
+  transition: ease;
+  opacity: 0.3s;
 }
 
 .nav__link {
@@ -31,6 +32,6 @@
 }
 
 .nav__link:hover {
-  transition: ease-in-out;
   color: #1f69c9;
+  opacity: 70%;
 }
