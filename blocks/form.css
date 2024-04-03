@@ -68,6 +68,6 @@
 }
 
 .form__button:hover {
-  transition: 70%;
+  transition: 3s ease-in-out;
   opacity: 70%;
 }
