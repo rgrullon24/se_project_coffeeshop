@@ -22,8 +22,7 @@
   line-height: 20px;
   font-family: "Inter", Arial, sans-serif;
   color: #2f80ed;
-  transition: ease;
-  opacity: 0.3s;
+  transition: color 0.2s linear;
 }
 
 .nav__link {
