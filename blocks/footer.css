@@ -57,6 +57,7 @@
 .footer__social-link:hover {
   color: #1f69c9;
   opacity: 70%;
+  transition: color 0.2s linear;
 }
 
 .footer__social-icon {
