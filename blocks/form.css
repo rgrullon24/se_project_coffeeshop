@@ -65,9 +65,10 @@
   color: #fff;
   background-color: #2f80ed;
   border: none;
+  transition: ease-in-out;
 }
 
 .form__button:hover {
-  transition: 3s ease-in-out;
+  transition: ease-in-out;
   opacity: 70%;
 }
